@@ -177,7 +177,8 @@ class Fooman_EmailAttachments_Model_Core_Email_Template_Mailer extends Mage_Core
                     array(
                          'template'   => $emailTemplate,
                          'params'     => $templateParams,
-                         'email_info' => $emailInfo
+                         'email_info' => $emailInfo,
+                         'object'     => $this
                     )
                 );
         }
